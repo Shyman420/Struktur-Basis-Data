@@ -1,0 +1,36 @@
+group: simpanan_bank
+Pelanggan = {
+Id_Plg, Nama_Plg, AlmtPlg_Kt
+'Plg-1', 'Amir', 'Jakarta'
+'Plg-2', 'Muntu', 'Jakarta'
+'Plg-3', 'Tuti', 'Bandung'
+}
+
+Bank = {
+Id_Bank, Nama_Bank, AlamatBnk_Kt
+'Bank-1', 'BRI Rasun', 'Jakarta'
+'Bank-2', 'BRI Dago', 'Bandung'
+'Bank-3', 'BRI Salak', 'Bogor'
+'Bank-4', 'BRI Kota', 'Jakarta'
+}
+
+Rekening = {
+Id_Rekng, Saldo, Id_Plg, Id_Bank
+'Rek-1', 30000000, 'Plg-2', 'Bank-1'
+'Rek-2', 23000000, 'Plg-2', 'Bank-2'
+'Rek-3', 83000000, 'Plg-1', 'Bank-1'
+'Rek-4', 17000000, 'Plg-1', 'Bank-4'
+'Rek-5', 53000000, 'Plg-3', 'Bank-3'
+'Rek-6', 37000000, 'Plg-2', 'Bank-4'
+}
+
+Trans = {
+Id_Rekng, Tgl_Trans, Kd_Trans, Rp
+'Rek-1', '01-01-20', 1, 300000
+'Rek-2', '11-11-19', 2, 570000
+'Rek-3', '12-12-19', 1, 900000
+'Rek-4', '02-02-20', 2, 150000
+'Rek-5', '06-06-20', 3, 450000
+'Rek-6', '07-07-20', 1, 550000
+'Rek-7', '07-07-20', 2, 750000
+}
